@@ -1,4 +1,4 @@
-let list_item = document.querySelector('.col p');
+let list_item = document.querySelector('.hover-text');
 let img_1 = document.querySelector('img');
 
 

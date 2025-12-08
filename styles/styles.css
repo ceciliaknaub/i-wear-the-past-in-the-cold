@@ -32,8 +32,19 @@ body {
     margin-right: 5%;
 }
 
-.col p {
+
+.col div {
+    width: 100%;
+    height: fit-content;
     border-bottom: black 1px solid;
+}
+
+.col p {
+    margin-bottom: 0;
+}
+
+.hover-text {
+    width: fit-content;
 }
 
 .img-style {
