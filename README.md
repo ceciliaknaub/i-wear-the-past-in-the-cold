@@ -1,2 +1,2 @@
-# capstone---private
+# capstone
 Capstone digital asset
