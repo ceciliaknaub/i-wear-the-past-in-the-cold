@@ -1,11 +1,17 @@
-let list_item = document.querySelector('.hover-text');
+const list_item = document.querySelectorAll('.hover-text');
 let img_1 = document.querySelector('img');
 
-list_item.addEventListener("mouseover", function(){
-    img_1.src = "./assets/design.jpeg"
-    list_item.style.cursor = 'default'
+const img_list = ['./assets/design.jpeg',"./assets/design.jpeg"]
+
+list_item.forEach(item => {
+    item.addEventListener("mouseover", function(){
+        img_1.src = "./assets/design.jpeg"
+        item.style.cursor = 'default'
+    })
+
+    item.addEventListener("mouseout", function(){
+        img_1.src = "./assets/pattern_1.jpeg"
+    })
 })
 
-list_item.addEventListener("mouseout", function(){
-    img_1.src = "./assets/pattern_1.jpeg"
-})
+
