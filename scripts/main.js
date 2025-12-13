@@ -1,17 +1,24 @@
-const list_item = document.querySelectorAll('.hover-text');
-let img_1 = document.querySelector('img');
+const listItem = document.querySelectorAll('.hover-text');
+let img1 = document.querySelector('img');
+let imgList = ['./assets/rose_tulip.jpeg','./assets/rose_tulip.jpeg','./assets/contrast_stitch.jpeg','./assets/contrast_stitch.jpeg','./assets/contrast_stitch.jpeg','./assets/flower.jpeg','./assets/petal.jpeg']
 
-const img_list = ['./assets/design.jpeg',"./assets/design.jpeg"]
 
-list_item.forEach(item => {
-    item.addEventListener("mouseover", function(){
-        img_1.src = "./assets/design.jpeg"
-        item.style.cursor = 'default'
+/*Replace images on hover*/
+listItem.forEach((item, index) => {
+    console.log("Index:", index);
+
+    /*Replace image with feature*/
+    listItem[index].addEventListener("mouseover", function(){
+            img1.src = imgList[index]
+            listItem[index].style.cursor = 'default'
     })
 
-    item.addEventListener("mouseout", function(){
-        img_1.src = "./assets/pattern_1.jpeg"
+    /*Return to landing image*/
+    listItem[index].addEventListener("mouseout", function(){
+        img1.src = "./assets/full_sweater.jpeg"
     })
+
 })
+
 
 
