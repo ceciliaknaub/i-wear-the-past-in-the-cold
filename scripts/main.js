@@ -8,17 +8,25 @@ listItem.forEach((item, index) => {
     console.log("Index:", index);
 
     /*Replace image with feature*/
-    listItem[index].addEventListener("mouseover", function(){
+    setInterval(timerOn(index),1000)
+    
+    /*Return to landing image*/
+    setInterval(timerOff(index),1000)
+})
+
+function timerOn(index) {
+        listItem[index].addEventListener("mouseover", function(){
             img1.src = imgList[index]
             listItem[index].style.cursor = 'default'
     })
+}
 
-    /*Return to landing image*/
-    listItem[index].addEventListener("mouseout", function(){
+function timerOff(index) {
+        listItem[index].addEventListener("mouseout", function(){
         img1.src = "./assets/full_sweater.jpeg"
     })
+}
 
-})
 
 
 
