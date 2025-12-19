@@ -1,6 +1,6 @@
 const listItem = document.querySelectorAll('.hover-text');
 let img1 = document.querySelector('img');
-let imgList = ['./assets/rose_tulip.jpeg','./assets/rose_tulip.jpeg','./assets/contrast_stitch.jpeg','./assets/contrast_stitch.jpeg','./assets/contrast_stitch.jpeg','./assets/flower.jpeg','./assets/petal.jpeg']
+let imgList = ['./assets/rose.png','./assets/tulip.png','./assets/contrast_stitch.jpeg','./assets/white_stitch.png','./assets/magenta_stitch.png','./assets/flower_1.jpeg','./assets/petal.jpeg']
 
 
 /*Replace images on hover*/
