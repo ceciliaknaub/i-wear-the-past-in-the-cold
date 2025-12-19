@@ -15,14 +15,15 @@ body {
 
 .header-container {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-
+    width: 25%;
 }
 
 .body-container {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .flex-grid {
@@ -48,5 +49,5 @@ body {
 
 .img-style {
     height: 400px;
-    width: 400px;
+    width: 325px;
 }
