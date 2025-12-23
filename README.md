@@ -1,2 +1,3 @@
 # I wear the past in the cold
-Capstone digital asset
+
+“I wear the past in the cold” is a multi-modal archival project exploring themes of intergenerational memory and postmemory. A hand-knit sweater acts as an archive, encoded with metadata about a collection of newspaper articles written by late father, as well as affectual elements of memory and grief. The accompanying website provides additional detail into the project and design choices. The piece builds on work from memory studies, craft studies, digital humanities, and critical data studies to create a tangible and personal archival object. By accepting the invitation from the #DHMakes movement (Visconti, Dombrowski, and Berger 2020) to embrace physical making within the field, the project forges novel interventions in material and archival studies. By reimagining the form an archive takes to center the materiality of an object, we find a medium that embodies memory.
