@@ -5,10 +5,10 @@ let imgList = ['./assets/rose.png','./assets/tulip.png','./assets/contrast_stitc
 
 /*Replace images on hover*/
 listItem.forEach((item, index) => {
-    console.log("Index:", index);
 
     /*Replace image with feature*/
     setInterval(timerOn(index),1000)
+
     
     /*Return to landing image*/
     setInterval(timerOff(index),1000)
@@ -17,7 +17,7 @@ listItem.forEach((item, index) => {
 function timerOn(index) {
         listItem[index].addEventListener("mouseover", function(){
             img1.src = imgList[index]
-            listItem[index].style.cursor = 'default'
+            listItem[index].style.cursor = 'pointer'
     })
 }
 
