@@ -18,12 +18,15 @@ function timerOn(index) {
         listItem[index].addEventListener("mouseover", function(){
             img1.src = imgList[index]
             listItem[index].style.cursor = 'pointer'
+            listItem[index].style.opacity = "0.5"
     })
 }
 
 function timerOff(index) {
         listItem[index].addEventListener("mouseout", function(){
         img1.src = "./assets/full_sweater.jpeg"
+        listItem[index].style.cursor = 'none'
+        listItem[index].style.opacity = "1"
     })
 }
 
