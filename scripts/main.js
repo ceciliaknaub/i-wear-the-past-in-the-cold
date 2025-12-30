@@ -11,7 +11,7 @@ listItem.forEach((item, index) => {
 
     
     /*Return to landing image*/
-    setInterval(timerOff(index),1000)
+    setInterval(timerOff(index),10000)
 })
 
 function timerOn(index) {
